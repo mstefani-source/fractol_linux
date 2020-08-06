@@ -1,0 +1,95 @@
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  "C"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_C
+  "/home/mstefani/Documents/fractol/fractol.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/fractol.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_abs.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_abs.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_atoi.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_atoi.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_atoi_base.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_atoi_base.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_bzero.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_bzero.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_factorial.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_factorial.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_isalnum.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_isalnum.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_isalpha.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_isalpha.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_isascii.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_isascii.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_isdigit.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_isdigit.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_islower.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_islower.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_ispace.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_ispace.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_isprint.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_isprint.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_isupper.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_isupper.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_itoa.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_itoa.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_join_and_free.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_join_and_free.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_leni.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_leni.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_lstadd.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_lstadd.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_lstdel.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_lstdel.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_lstdelone.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_lstdelone.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_lstiter.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_lstiter.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_lstmap.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_lstmap.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_lstnew.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_lstnew.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_memalloc.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_memalloc.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_memccpy.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_memccpy.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_memchr.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_memchr.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_memcmp.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_memcmp.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_memcpy.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_memcpy.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_memdel.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_memdel.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_memmove.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_memmove.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_memset.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_memset.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_overlong.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_overlong.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_putchar.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_putchar.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_putchar_fd.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_putchar_fd.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_putendl.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_putendl.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_putendl_fd.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_putendl_fd.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_putnbr.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_putnbr.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_putnbr_fd.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_putnbr_fd.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_putstr.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_putstr.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_putstr_fd.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_putstr_fd.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_sqrt.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_sqrt.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_strcat.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_strcat.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_strchr.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_strchr.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_strclr.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_strclr.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_strcmp.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_strcmp.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_strcpy.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_strcpy.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_strdel.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_strdel.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_strdup.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_strdup.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_strequ.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_strequ.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_striter.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_striter.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_striteri.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_striteri.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_strjoin.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_strjoin.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_strlcat.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_strlcat.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_strlen.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_strlen.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_strmap.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_strmap.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_strmapi.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_strmapi.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_strncat.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_strncat.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_strncmp.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_strncmp.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_strncpy.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_strncpy.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_strnequ.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_strnequ.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_strnew.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_strnew.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_strnstr.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_strnstr.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_strrchr.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_strrchr.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_strsplit.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_strsplit.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_strstr.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_strstr.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_strsub.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_strsub.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_strtrim.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_strtrim.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_tolower.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_tolower.c.o"
+  "/home/mstefani/Documents/fractol/libft/ft_toupper.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/libft/ft_toupper.c.o"
+  "/home/mstefani/Documents/fractol/src/ft_catch_order.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/src/ft_catch_order.c.o"
+  "/home/mstefani/Documents/fractol/src/ft_draw_fractal.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/src/ft_draw_fractal.c.o"
+  "/home/mstefani/Documents/fractol/src/ft_init.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/src/ft_init.c.o"
+  "/home/mstefani/Documents/fractol/src/ft_key_win.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/src/ft_key_win.c.o"
+  "/home/mstefani/Documents/fractol/src/ft_mouse.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/src/ft_mouse.c.o"
+  "/home/mstefani/Documents/fractol/src/ft_put_pixel.c" "/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir/src/ft_put_pixel.c.o"
+  )
+set(CMAKE_C_COMPILER_ID "GNU")
+
+# The include file search paths:
+set(CMAKE_C_TARGET_INCLUDE_PATH
+  "../."
+  )
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

@@ -1,0 +1,3 @@
+/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/fractol.dir
