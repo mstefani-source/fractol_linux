@@ -29,7 +29,6 @@ int		ft_julia(t_dot dot, t_dot jconst, int wnditer)
 	int		iter;
 
 	iter = 0;
-
 	cp.x = dot.x;
 	cp.y = dot.y;
 	while (iter < wnditer && ft_ins(cp))

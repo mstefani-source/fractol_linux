@@ -12,23 +12,9 @@
 
 #include "../fractol.h"
 
-t_dot	ft_add2(t_dot c1, t_dot c2)
+int		ft_ins2(t_dot dot)
 {
-	return ((t_dot){c1.x + c2.x, c1.y + c2.y});
-}
-
-t_dot	ft_quadro2(t_dot c1)
-{
-	t_dot res;
-
-	res.x = c1.x * c1.x - c1.y * c1.y;
-	res.y = 2 * c1.x * c1.y;
-	return (res);
-}
-
-int		ft_inside2(t_dot dot)
-{
-	double lim;
+	double	lim;
 
 	lim = 2.0;
 	if (dot.x < lim && dot.x > -lim && dot.y < lim && dot.y > -lim)
@@ -36,20 +22,23 @@ int		ft_inside2(t_dot dot)
 	return (0);
 }
 
-int		ft_bsh(t_dot dot, int wnditer)
+int		ft_bsh(t_dot dot, t_dot jconst, int wnditer)
 {
 	t_dot	cp;
+	double	tmp;
 	int		iter;
 
 	iter = 0;
-	cp.x = 0;
-	cp.y = 0;
-	while (iter < wnditer && ft_inside2(cp))
+	cp.x = dot.x;
+	cp.y = dot.y;
+	while (iter < wnditer && ft_ins2(cp))
 	{
-		cp = ft_add2(ft_quadro2(cp), dot);
+		tmp = cp.x;
+		cp.x = cp.x * cp.x * cp.x - 3 * cp.x * cp.y * cp.y + jconst.x;
+		cp.y = 3 * tmp * tmp * cp.y - cp.y * cp.y * cp.y + jconst.y;
 		iter++;
 	}
-	if (ft_inside2(cp))
+	if (ft_ins2(cp))
 		return (BACKGROUND);
 	else if (iter > 0 && iter < 50)
 		return (rgb_to_int(10, 0 + (2 * iter), 0 + 3 * iter));

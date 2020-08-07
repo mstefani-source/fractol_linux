@@ -32,6 +32,6 @@ void		ft_catch_order(t_mlx *mlx)
 	mlx_hook(mlx->wnd->wnd, 2, (1Lu << 0u), ft_key_win, mlx);
 	mlx_hook(mlx->wnd->wnd, 17, (1Lu << 17u), ft_close, mlx);
 	mlx_hook(mlx->wnd->wnd, 4, (1Lu << 2u), ft_mouse_pressed, mlx);
-	if (mlx->wnd->type == 2)
+	if (mlx->wnd->type == 2 || mlx->wnd->type == 3)
 		mlx_hook(mlx->wnd->wnd, 6, (1Lu << 13u), ft_mouse_move, mlx);
 }

@@ -73,6 +73,6 @@ void				ft_catch_order(t_mlx *mlx);
 t_wnd				*ft_init_window(int argc, char *ch);
 int					ft_julia(t_dot dot, t_dot jconst, int wnditer);
 int					ft_mb(t_dot dot, int wnditer);
-int					ft_bsh(t_dot dot, int wnditer);
+int					ft_bsh(t_dot dot, t_dot jconst, int wnditer);
 
 #endif

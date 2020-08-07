@@ -31,8 +31,8 @@ int		ft_check_argv(int c, char *str)
 	if (ft_strcmp(str, mb) == 0)
 		return (1);
 	else
-		{
-			write(1, "Choose one fractol: julia mandelbrot bsh\n", 41);
-			return (0);
-		}
+	{
+		write(1, "Choose one fractol: julia mandelbrot bsh\n", 41);
+		return (0);
+	}
 }

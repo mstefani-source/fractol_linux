@@ -12,9 +12,23 @@
 
 #include "../fractol.h"
 
-void		*thread_function(void *func)
+void		ft_launch(int i, double x, double y, t_wnd *wnd)
 {
 	int		*image;
+
+	image = (int *)(wnd->data_addr);
+	if (wnd->type == 1)
+		image[i + wnd->sty * WX] = ft_mb((t_dot){x, y}, wnd->iter);
+	if (wnd->type == 2)
+		image[i + wnd->sty * WX] = ft_julia((t_dot){x, y}, wnd->juli_const, \
+									wnd->iter);
+	if (wnd->type == 3)
+		image[i + wnd->sty * WX] = ft_bsh((t_dot){x, y}, wnd->juli_const, \
+									wnd->iter);
+}
+
+void		*thread_function(void *func)
+{
 	int		i;
 	double	x;
 	double	y;
@@ -24,7 +38,6 @@ void		*thread_function(void *func)
 	wnd->stepx = wnd->len_x / WX;
 	wnd->stepy = wnd->len_y / WY;
 	y = wnd->starty - wnd->sty * wnd->stepy;
-	image = (int *)(wnd->data_addr);
 	while (wnd->sty < wnd->endy)
 	{
 		i = 0;
@@ -32,12 +45,7 @@ void		*thread_function(void *func)
 		while (i < WX)
 		{
 			x = x + wnd->stepx;
-			if (wnd->type == 1)
-				image[i + wnd->sty * WX] = ft_mb((t_dot){x, y}, wnd->iter);
-			if (wnd->type == 2)
-				image[i + wnd->sty * WX] = ft_julia((t_dot){x, y}, wnd->juli_const, wnd->iter);
-			if (wnd->type == 3)
-				image[i + wnd->sty * WX] = ft_bsh((t_dot){x, y}, wnd->iter);
+			ft_launch(i, x, y, wnd);
 			i++;
 		}
 		y = y - wnd->stepy;
