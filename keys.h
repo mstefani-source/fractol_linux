@@ -6,15 +6,15 @@
 /*   By: mstefani <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/03 20:29:42 by mstefani          #+#    #+#             */
-/*   Updated: 2020/07/26 16:47:34 by skale            ###   ########.fr       */
+/*   Updated: 2020/08/07 14:09:11 by mstefani         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FDF_KEYS_H
 # define FDF_KEYS_H
 
-# define ESC_KEY 65307
-# define PLUSITER 46
-# define MINUSITER 44
+# define ESC_KEY 53 
+# define PLUSITER 126
+# define MINUSITER 125
 
 #endif

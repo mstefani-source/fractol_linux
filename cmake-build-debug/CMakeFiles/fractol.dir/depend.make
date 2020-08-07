@@ -5,6 +5,7 @@ CMakeFiles/fractol.dir/fractol.c.o: ../fractol.c
 CMakeFiles/fractol.dir/fractol.c.o: ../fractol.h
 CMakeFiles/fractol.dir/fractol.c.o: ../keys.h
 CMakeFiles/fractol.dir/fractol.c.o: ../libft.h
+CMakeFiles/fractol.dir/fractol.c.o: /usr/local/include/mlx.h
 
 CMakeFiles/fractol.dir/libft/ft_abs.c.o: ../libft/ft_abs.c
 
@@ -204,33 +205,63 @@ CMakeFiles/fractol.dir/libft/ft_tolower.c.o: ../libft/ft_tolower.c
 CMakeFiles/fractol.dir/libft/ft_toupper.c.o: ../libft.h
 CMakeFiles/fractol.dir/libft/ft_toupper.c.o: ../libft/ft_toupper.c
 
+CMakeFiles/fractol.dir/src/ft_bsh.c.o: ../fractol.h
+CMakeFiles/fractol.dir/src/ft_bsh.c.o: ../keys.h
+CMakeFiles/fractol.dir/src/ft_bsh.c.o: ../libft.h
+CMakeFiles/fractol.dir/src/ft_bsh.c.o: ../src/ft_bsh.c
+CMakeFiles/fractol.dir/src/ft_bsh.c.o: /usr/local/include/mlx.h
+
 CMakeFiles/fractol.dir/src/ft_catch_order.c.o: ../fractol.h
 CMakeFiles/fractol.dir/src/ft_catch_order.c.o: ../keys.h
 CMakeFiles/fractol.dir/src/ft_catch_order.c.o: ../libft.h
 CMakeFiles/fractol.dir/src/ft_catch_order.c.o: ../src/ft_catch_order.c
+CMakeFiles/fractol.dir/src/ft_catch_order.c.o: /usr/local/include/mlx.h
+
+CMakeFiles/fractol.dir/src/ft_check_argv.c.o: ../fractol.h
+CMakeFiles/fractol.dir/src/ft_check_argv.c.o: ../keys.h
+CMakeFiles/fractol.dir/src/ft_check_argv.c.o: ../libft.h
+CMakeFiles/fractol.dir/src/ft_check_argv.c.o: ../src/ft_check_argv.c
+CMakeFiles/fractol.dir/src/ft_check_argv.c.o: /usr/local/include/mlx.h
 
 CMakeFiles/fractol.dir/src/ft_draw_fractal.c.o: ../fractol.h
 CMakeFiles/fractol.dir/src/ft_draw_fractal.c.o: ../keys.h
 CMakeFiles/fractol.dir/src/ft_draw_fractal.c.o: ../libft.h
 CMakeFiles/fractol.dir/src/ft_draw_fractal.c.o: ../src/ft_draw_fractal.c
+CMakeFiles/fractol.dir/src/ft_draw_fractal.c.o: /usr/local/include/mlx.h
 
 CMakeFiles/fractol.dir/src/ft_init.c.o: ../fractol.h
 CMakeFiles/fractol.dir/src/ft_init.c.o: ../keys.h
 CMakeFiles/fractol.dir/src/ft_init.c.o: ../libft.h
 CMakeFiles/fractol.dir/src/ft_init.c.o: ../src/ft_init.c
+CMakeFiles/fractol.dir/src/ft_init.c.o: /usr/local/include/mlx.h
 
 CMakeFiles/fractol.dir/src/ft_key_win.c.o: ../fractol.h
 CMakeFiles/fractol.dir/src/ft_key_win.c.o: ../keys.h
 CMakeFiles/fractol.dir/src/ft_key_win.c.o: ../libft.h
 CMakeFiles/fractol.dir/src/ft_key_win.c.o: ../src/ft_key_win.c
+CMakeFiles/fractol.dir/src/ft_key_win.c.o: /usr/local/include/mlx.h
+
+CMakeFiles/fractol.dir/src/ft_mb.c.o: ../fractol.h
+CMakeFiles/fractol.dir/src/ft_mb.c.o: ../keys.h
+CMakeFiles/fractol.dir/src/ft_mb.c.o: ../libft.h
+CMakeFiles/fractol.dir/src/ft_mb.c.o: ../src/ft_mb.c
+CMakeFiles/fractol.dir/src/ft_mb.c.o: /usr/local/include/mlx.h
 
 CMakeFiles/fractol.dir/src/ft_mouse.c.o: ../fractol.h
 CMakeFiles/fractol.dir/src/ft_mouse.c.o: ../keys.h
 CMakeFiles/fractol.dir/src/ft_mouse.c.o: ../libft.h
 CMakeFiles/fractol.dir/src/ft_mouse.c.o: ../src/ft_mouse.c
+CMakeFiles/fractol.dir/src/ft_mouse.c.o: /usr/local/include/mlx.h
 
 CMakeFiles/fractol.dir/src/ft_put_pixel.c.o: ../fractol.h
 CMakeFiles/fractol.dir/src/ft_put_pixel.c.o: ../keys.h
 CMakeFiles/fractol.dir/src/ft_put_pixel.c.o: ../libft.h
 CMakeFiles/fractol.dir/src/ft_put_pixel.c.o: ../src/ft_put_pixel.c
+CMakeFiles/fractol.dir/src/ft_put_pixel.c.o: /usr/local/include/mlx.h
+
+CMakeFiles/fractol.dir/src/julia.c.o: ../fractol.h
+CMakeFiles/fractol.dir/src/julia.c.o: ../keys.h
+CMakeFiles/fractol.dir/src/julia.c.o: ../libft.h
+CMakeFiles/fractol.dir/src/julia.c.o: ../src/julia.c
+CMakeFiles/fractol.dir/src/julia.c.o: /usr/local/include/mlx.h
 

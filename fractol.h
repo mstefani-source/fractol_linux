@@ -14,8 +14,6 @@
 # define FRACTOL_FRACTOL_H
 # include <fcntl.h>
 # include <mlx.h>
-# include <X11/X.h>
-# include <X11/Xlib.h>
 # include <stdio.h>
 # include <stdlib.h>
 # include <zconf.h>
@@ -57,7 +55,7 @@ typedef struct		s_wnd
 	int 			endy;
 	t_dot			juli_const;
 	int 			iter;
-	char			type;
+	int				type;
 }					t_wnd;
 
 typedef struct		s_mlx
@@ -69,8 +67,12 @@ int					ft_mouse_move(int x, int y, t_mlx *mlx);
 int					ft_mouse_pressed(int buttom, int x, int y, t_mlx *mlx);
 int					rgb_to_int(int red, int green, int blue);
 void 				ft_draw_fractal(t_mlx *mlx);
+int					ft_check_argv(int c, char *str);
 int					ft_key_win(int key, t_mlx *mlx);
 void				ft_catch_order(t_mlx *mlx);
-t_wnd				*ft_init_window(char type);
+t_wnd				*ft_init_window(int argc, char *ch);
+int					ft_julia(t_dot dot, t_dot jconst, int wnditer);
+int					ft_mb(t_dot dot, int wnditer);
+int					ft_bsh(t_dot dot, int wnditer);
 
 #endif

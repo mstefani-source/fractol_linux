@@ -12,29 +12,8 @@
 
 #include "../fractol.h"
 
-/*void		ft_set_fractol(t_mlx *mlx)
+void		ft_set_wnd(t_wnd *wnd)
 {
-	if (!(mlx->map = map_init()))
-		exit(1);
-	if (!(mlx->dot = dot_init()))
-		exit(2);
-	if (!(mlx->camera = camera_init()))
-		exit(3);
-}*/
-
-t_wnd		*ft_init_window(char ch)
-{
-	t_wnd	*wnd;
-
-	if (!(wnd = (t_wnd*)ft_memalloc(sizeof(t_wnd))))
-		exit(2);
-	if (!(wnd->ptr = mlx_init()))
-		exit(1);
-	if (!(wnd->wnd = mlx_new_window(wnd->ptr, WX, WY, "MyFractol")))
-		exit(1);
-	if (!(wnd->img = mlx_new_image(wnd->ptr, WX, WY)))
-		exit(1);
-	wnd->data_addr = mlx_get_data_addr(wnd->img, &wnd->bit_per_pixel, &wnd->size_line, &wnd->endian);
 	wnd->startx = -2;
 	wnd->finishx = 2;
 	wnd->starty = 1;
@@ -44,6 +23,25 @@ t_wnd		*ft_init_window(char ch)
 	wnd->juli_const.x = -0.70176;
 	wnd->juli_const.y = -0.3842;
 	wnd->iter = 100;
-	wnd->type = ch;
+}
+
+t_wnd		*ft_init_window(int argc, char *ch)
+{
+	t_wnd	*wnd;
+
+	if (!(wnd = (t_wnd*)ft_memalloc(sizeof(t_wnd))))
+		exit(2);
+	wnd->type = ft_check_argv(argc, ch);
+	if (wnd->type == 0)
+		return (NULL);
+	if (!(wnd->ptr = mlx_init()))
+		exit(1);
+	if (!(wnd->wnd = mlx_new_window(wnd->ptr, WX, WY, "MyFractol")))
+		exit(1);
+	if (!(wnd->img = mlx_new_image(wnd->ptr, WX, WY)))
+		exit(1);
+	wnd->data_addr = mlx_get_data_addr(wnd->img, &wnd->bit_per_pixel, \
+			&wnd->size_line, &wnd->endian);
+	ft_set_wnd(wnd);
 	return (wnd);
 }

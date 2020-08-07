@@ -6,7 +6,7 @@
 /*   By: mstefani <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/27 20:00:12 by mstefani          #+#    #+#             */
-/*   Updated: 2020/07/30 17:19:24 by mstefani         ###   ########.fr       */
+/*   Updated: 2020/08/07 14:11:08 by mstefani         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,9 +29,9 @@ int			ft_close(void *param)
 
 void		ft_catch_order(t_mlx *mlx)
 {
-	mlx_hook(mlx->wnd->wnd, 2, KeyPressMask, ft_key_win, mlx);
+	mlx_hook(mlx->wnd->wnd, 2, (1Lu << 0u), ft_key_win, mlx);
 	mlx_hook(mlx->wnd->wnd, 17, (1Lu << 17u), ft_close, mlx);
-	mlx_hook(mlx->wnd->wnd, 4, ButtonPressMask, ft_mouse_pressed, mlx);
-	if (mlx->wnd->type == '2')
-		mlx_hook(mlx->wnd->wnd, 6, PointerMotionMask, ft_mouse_move, mlx);
+	mlx_hook(mlx->wnd->wnd, 4, (1Lu << 2u), ft_mouse_pressed, mlx);
+	if (mlx->wnd->type == 2)
+		mlx_hook(mlx->wnd->wnd, 6, (1Lu << 13u), ft_mouse_move, mlx);
 }

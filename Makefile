@@ -6,16 +6,18 @@ SRC = fractol.c \
 	src/ft_catch_order.c \
 	src/ft_mouse.c \
 	src/ft_put_pixel.c \
-	src/ft_draw_fractal.c 
+	src/ft_check_argv.c \
+	src/ft_draw_fractal.c \
+	src/ft_mb.c \
+	src/julia.c \
+	src/ft_bsh.c
 
 INCLUDES = -I/usr/local/include -I/usr/include
 
 LIBOBJ = $(SRC:.c=.o)
 
 CFLAGS = -Wall -Werror -Wextra
-#GLFLAGS = -lm -lmlx -framework OpenGL -framework AppKit
-
-GLFLAGS = -lm -lmlx -lXext -lX11 -lpthread
+GLFLAGS = -lm -lmlx -framework OpenGL -framework AppKit
 
 $(NAME): $(LIBOBJ)
 		make -C ./libft

@@ -85,9 +85,13 @@ add_executable(fractol
         keys.h
         libft.h
         src/ft_draw_fractal.c
-        src/ft_put_pixel.c)
+        src/ft_put_pixel.c
+        src/ft_check_argv.c
+        src/ft_mb.c
+        src/julia.c
+        src/ft_bsh.c)
 
 target_link_libraries(fractol
         LINK_PUBLIC ${CMAKE_SOURCE_DIR}/libft/libft.a
-         LINK_PUBLIC -lmlx -lm -lX11 -lbsd -lXext -lpthread)
-#        LINK_PUBLIC /usr/local/lib/libmlx.a "-framework OpenGL" "-framework AppKit")
+#         LINK_PUBLIC -lmlx -lm -lX11 -lbsd -lXext -lpthread)
+        LINK_PUBLIC /usr/local/lib/libmlx.a "-framework OpenGL" "-framework AppKit")

@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /var/lib/snapd/snap/clion/114/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /var/lib/snapd/snap/clion/114/bin/cmake/linux/bin/cmake -E remove -f
+RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mstefani/Documents/fractol
+CMAKE_SOURCE_DIR = /Users/mstefani/fractol_linux
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mstefani/Documents/fractol/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/mstefani/fractol_linux/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/mstefani/Documents/fractol/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/var/lib/snapd/snap/clion/114/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/var/lib/snapd/snap/clion/114/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles /home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mstefani/fractol_linux/cmake-build-debug/CMakeFiles /Users/mstefani/fractol_linux/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mstefani/Documents/fractol/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mstefani/fractol_linux/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -1986,6 +1986,33 @@ libft/ft_toupper.c.s:
 	$(MAKE) -f CMakeFiles/fractol.dir/build.make CMakeFiles/fractol.dir/libft/ft_toupper.c.s
 .PHONY : libft/ft_toupper.c.s
 
+src/ft_bsh.o: src/ft_bsh.c.o
+
+.PHONY : src/ft_bsh.o
+
+# target to build an object file
+src/ft_bsh.c.o:
+	$(MAKE) -f CMakeFiles/fractol.dir/build.make CMakeFiles/fractol.dir/src/ft_bsh.c.o
+.PHONY : src/ft_bsh.c.o
+
+src/ft_bsh.i: src/ft_bsh.c.i
+
+.PHONY : src/ft_bsh.i
+
+# target to preprocess a source file
+src/ft_bsh.c.i:
+	$(MAKE) -f CMakeFiles/fractol.dir/build.make CMakeFiles/fractol.dir/src/ft_bsh.c.i
+.PHONY : src/ft_bsh.c.i
+
+src/ft_bsh.s: src/ft_bsh.c.s
+
+.PHONY : src/ft_bsh.s
+
+# target to generate assembly for a file
+src/ft_bsh.c.s:
+	$(MAKE) -f CMakeFiles/fractol.dir/build.make CMakeFiles/fractol.dir/src/ft_bsh.c.s
+.PHONY : src/ft_bsh.c.s
+
 src/ft_catch_order.o: src/ft_catch_order.c.o
 
 .PHONY : src/ft_catch_order.o
@@ -2012,6 +2039,33 @@ src/ft_catch_order.s: src/ft_catch_order.c.s
 src/ft_catch_order.c.s:
 	$(MAKE) -f CMakeFiles/fractol.dir/build.make CMakeFiles/fractol.dir/src/ft_catch_order.c.s
 .PHONY : src/ft_catch_order.c.s
+
+src/ft_check_argv.o: src/ft_check_argv.c.o
+
+.PHONY : src/ft_check_argv.o
+
+# target to build an object file
+src/ft_check_argv.c.o:
+	$(MAKE) -f CMakeFiles/fractol.dir/build.make CMakeFiles/fractol.dir/src/ft_check_argv.c.o
+.PHONY : src/ft_check_argv.c.o
+
+src/ft_check_argv.i: src/ft_check_argv.c.i
+
+.PHONY : src/ft_check_argv.i
+
+# target to preprocess a source file
+src/ft_check_argv.c.i:
+	$(MAKE) -f CMakeFiles/fractol.dir/build.make CMakeFiles/fractol.dir/src/ft_check_argv.c.i
+.PHONY : src/ft_check_argv.c.i
+
+src/ft_check_argv.s: src/ft_check_argv.c.s
+
+.PHONY : src/ft_check_argv.s
+
+# target to generate assembly for a file
+src/ft_check_argv.c.s:
+	$(MAKE) -f CMakeFiles/fractol.dir/build.make CMakeFiles/fractol.dir/src/ft_check_argv.c.s
+.PHONY : src/ft_check_argv.c.s
 
 src/ft_draw_fractal.o: src/ft_draw_fractal.c.o
 
@@ -2094,6 +2148,33 @@ src/ft_key_win.c.s:
 	$(MAKE) -f CMakeFiles/fractol.dir/build.make CMakeFiles/fractol.dir/src/ft_key_win.c.s
 .PHONY : src/ft_key_win.c.s
 
+src/ft_mb.o: src/ft_mb.c.o
+
+.PHONY : src/ft_mb.o
+
+# target to build an object file
+src/ft_mb.c.o:
+	$(MAKE) -f CMakeFiles/fractol.dir/build.make CMakeFiles/fractol.dir/src/ft_mb.c.o
+.PHONY : src/ft_mb.c.o
+
+src/ft_mb.i: src/ft_mb.c.i
+
+.PHONY : src/ft_mb.i
+
+# target to preprocess a source file
+src/ft_mb.c.i:
+	$(MAKE) -f CMakeFiles/fractol.dir/build.make CMakeFiles/fractol.dir/src/ft_mb.c.i
+.PHONY : src/ft_mb.c.i
+
+src/ft_mb.s: src/ft_mb.c.s
+
+.PHONY : src/ft_mb.s
+
+# target to generate assembly for a file
+src/ft_mb.c.s:
+	$(MAKE) -f CMakeFiles/fractol.dir/build.make CMakeFiles/fractol.dir/src/ft_mb.c.s
+.PHONY : src/ft_mb.c.s
+
 src/ft_mouse.o: src/ft_mouse.c.o
 
 .PHONY : src/ft_mouse.o
@@ -2147,6 +2228,33 @@ src/ft_put_pixel.s: src/ft_put_pixel.c.s
 src/ft_put_pixel.c.s:
 	$(MAKE) -f CMakeFiles/fractol.dir/build.make CMakeFiles/fractol.dir/src/ft_put_pixel.c.s
 .PHONY : src/ft_put_pixel.c.s
+
+src/julia.o: src/julia.c.o
+
+.PHONY : src/julia.o
+
+# target to build an object file
+src/julia.c.o:
+	$(MAKE) -f CMakeFiles/fractol.dir/build.make CMakeFiles/fractol.dir/src/julia.c.o
+.PHONY : src/julia.c.o
+
+src/julia.i: src/julia.c.i
+
+.PHONY : src/julia.i
+
+# target to preprocess a source file
+src/julia.c.i:
+	$(MAKE) -f CMakeFiles/fractol.dir/build.make CMakeFiles/fractol.dir/src/julia.c.i
+.PHONY : src/julia.c.i
+
+src/julia.s: src/julia.c.s
+
+.PHONY : src/julia.s
+
+# target to generate assembly for a file
+src/julia.c.s:
+	$(MAKE) -f CMakeFiles/fractol.dir/build.make CMakeFiles/fractol.dir/src/julia.c.s
+.PHONY : src/julia.c.s
 
 # Help Target
 help:
@@ -2364,9 +2472,15 @@ help:
 	@echo "... libft/ft_toupper.o"
 	@echo "... libft/ft_toupper.i"
 	@echo "... libft/ft_toupper.s"
+	@echo "... src/ft_bsh.o"
+	@echo "... src/ft_bsh.i"
+	@echo "... src/ft_bsh.s"
 	@echo "... src/ft_catch_order.o"
 	@echo "... src/ft_catch_order.i"
 	@echo "... src/ft_catch_order.s"
+	@echo "... src/ft_check_argv.o"
+	@echo "... src/ft_check_argv.i"
+	@echo "... src/ft_check_argv.s"
 	@echo "... src/ft_draw_fractal.o"
 	@echo "... src/ft_draw_fractal.i"
 	@echo "... src/ft_draw_fractal.s"
@@ -2376,12 +2490,18 @@ help:
 	@echo "... src/ft_key_win.o"
 	@echo "... src/ft_key_win.i"
 	@echo "... src/ft_key_win.s"
+	@echo "... src/ft_mb.o"
+	@echo "... src/ft_mb.i"
+	@echo "... src/ft_mb.s"
 	@echo "... src/ft_mouse.o"
 	@echo "... src/ft_mouse.i"
 	@echo "... src/ft_mouse.s"
 	@echo "... src/ft_put_pixel.o"
 	@echo "... src/ft_put_pixel.i"
 	@echo "... src/ft_put_pixel.s"
+	@echo "... src/julia.o"
+	@echo "... src/julia.i"
+	@echo "... src/julia.s"
 .PHONY : help
 
 

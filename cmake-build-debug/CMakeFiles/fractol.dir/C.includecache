@@ -6,14 +6,10 @@
 
 #IncludeRegexTransform: 
 
-/home/mstefani/Documents/fractol/fractol.h
+/Users/mstefani/fractol_linux/fractol.h
 fcntl.h
 -
 mlx.h
--
-X11/X.h
--
-X11/Xlib.h
 -
 stdio.h
 -
@@ -22,17 +18,17 @@ stdlib.h
 zconf.h
 -
 libft.h
-/home/mstefani/Documents/fractol/libft.h
+/Users/mstefani/fractol_linux/libft.h
 math.h
 -
 pthread.h
 -
 keys.h
-/home/mstefani/Documents/fractol/keys.h
+/Users/mstefani/fractol_linux/keys.h
 
-/home/mstefani/Documents/fractol/keys.h
+/Users/mstefani/fractol_linux/keys.h
 
-/home/mstefani/Documents/fractol/libft.h
+/Users/mstefani/fractol_linux/libft.h
 string.h
 -
 unistd.h
@@ -42,11 +38,9 @@ stdlib.h
 limits.h
 -
 
-/home/mstefani/Documents/fractol/src/ft_catch_order.c
+/Users/mstefani/fractol_linux/src/ft_mouse.c
 ../fractol.h
-/home/mstefani/Documents/fractol/fractol.h
+/Users/mstefani/fractol_linux/fractol.h
 
-/home/mstefani/Documents/fractol/src/ft_draw_fractal.c
-../fractol.h
-/home/mstefani/Documents/fractol/fractol.h
+/usr/local/include/mlx.h
 

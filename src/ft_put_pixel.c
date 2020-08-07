@@ -24,7 +24,7 @@ int			rgb_to_int(int red, int green, int blue)
 	return (r << 16 | g << 8 | b);
 }
 
-void	ft_put_pixel(int x, int y, int color, int aliasing, t_wnd *wnd)
+void		ft_put_pixel(int x, int y, int color, t_wnd *wnd)
 {
 	int i;
 
@@ -34,6 +34,6 @@ void	ft_put_pixel(int x, int y, int color, int aliasing, t_wnd *wnd)
 		wnd->data_addr[i + 0] = (color) & 0xFF;
 		wnd->data_addr[i + 1] = (color >> 8) & 0xFF;
 		wnd->data_addr[i + 2] = (color >> 16) & 0xFF;
-		wnd->data_addr[i + 3] = aliasing;
+		wnd->data_addr[i + 3] = 0;
 	}
 }
